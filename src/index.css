@@ -40,6 +40,5 @@ input::placeholder {
 
 label {
   color: var(--color-gray);
-  display: block;
   margin-bottom: 5px;
 }

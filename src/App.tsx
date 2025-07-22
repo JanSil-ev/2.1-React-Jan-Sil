@@ -1,16 +1,11 @@
-import './App.css';
+import './App.scss';
+import { TodoList } from './pages/Pages';
 
 const App = () => {
   return (
-    <>
-      {/* <Input
-        labelText="Имя пользователя"
-        id="user_name"
-        type="text"
-        placeholder="Введите ваше имя"
-        className="field"
-      /> */}
-    </>
+    <div className="container">
+      <TodoList />
+    </div>
   );
 };
 
